@@ -1,0 +1,19 @@
+nav{
+    background-color: #2C3E50;
+    color: white;
+}
+
+.nav-link{
+    width: auto;
+    text-align: center;
+
+    color: white;
+}
+
+.link-active{
+    text-align: center;
+    background-color: #1ABC9C;
+    width: auto !important;
+    color: white;
+    border-radius: 10px;
+}

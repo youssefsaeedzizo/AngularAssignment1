@@ -1,0 +1,9 @@
+#label-abs{
+    opacity:  0;
+    top: -20px;
+    transition: all 0.5s;
+}
+/* #label-abs{
+    display: block;
+    top: -20px;
+} */

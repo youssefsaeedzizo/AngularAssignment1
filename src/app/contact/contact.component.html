@@ -1,0 +1,67 @@
+<div id="contact" style="color: #2C3E50;">
+    <div class="pt-5">
+
+        <h1 class="fw-bold text-center">CONTACT SECTION</h1>
+    </div>
+
+    <div class="d-flex justify-content-center pb-3">
+        <div class=" mt-2 mx-2" style="width: 80px; height: 5px; background-color: #2C3E50;"></div>
+        <div class="mb-0 pb-0 mx-2">
+
+            <i class=" fa-solid fa-star"></i>
+        </div>
+        <div class=" mt-2 mx-2" style="width: 80px; height: 5px;background-color: #2C3E50"></div>
+
+    </div>
+
+    <div class="container">
+        <form action="" class="mx-auto w-50">
+            
+            <div class="my-5 mx-auto  ">
+                <div class="position-relative">
+
+                    <label for="" id="label-abs" style="color: #1ABC9C;" class=" ms-2 position-absolute">userName</label>
+                </div>
+
+                <input (keyup)="showLabel($event)"  id="userName" type="text"
+                    class=" form-control border border-3 border-top-0 border-start-0 border-end-0 shadow-sm"
+                    placeholder="userName">
+
+            </div>
+            <div class="my-5 mx-auto  m-auto ">
+                <div class="position-relative">
+
+                    <label for="" id="label-abs" style="color: #1ABC9C;" class=" ms-2 position-absolute">userAge</label>
+                </div>
+
+                <input (keyup)="showLabel($event)"  id="userAge" type="number"
+                    class=" form-control border border-3 border-top-0 border-start-0 border-end-0 shadow-sm"
+                    placeholder="userAge">
+
+            </div>
+            <div class="my-5 mx-auto  m-auto ">
+                <div class="position-relative">
+
+                    <label for="" id="label-abs" style="color: #1ABC9C;" class=" ms-2 position-absolute">userEmail</label>
+                </div>
+
+                <input (keyup)="showLabel($event)"  id="userEmail" type="email"
+                    class=" form-control border border-3 border-top-0 border-start-0 border-end-0 shadow-sm"
+                    placeholder="userEmail">
+
+            </div>
+            <div class="my-5 mx-auto  m-auto ">
+                <div class="position-relative">
+
+                    <label for="" id="label-abs" style="color: #1ABC9C;" class=" ms-2 position-absolute">userPassword</label>
+                </div>
+
+                <input (keyup)="showLabel($event)"  id="userPassword" type="password"
+                    class=" form-control border border-3 border-top-0 border-start-0 border-end-0 shadow-sm"
+                    placeholder="userPassword">
+
+            </div>
+            <button class="btn text-white" style="background-color: #1ABC9C;">Send Message</button>
+        </form>
+    </div>
+</div>
